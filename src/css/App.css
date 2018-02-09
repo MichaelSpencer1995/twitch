@@ -1,0 +1,100 @@
+body {
+  background-color: #E0D5AD;
+  font-family: 'Montserrat', sans-serif; }
+
+.container {
+  height: 100px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px; }
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  color: #f0f0f0;
+  height: 100px;
+  background-color: #5B584F; }
+
+.streamer-container {
+  height: 80px;
+  background-color: #92A78C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0 2em;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.change-view {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.03rem;
+  height: 30px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer; }
+
+.show-all {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #92A78C; }
+  .show-all:hover {
+    background-color: #849c7e; }
+
+.show-online {
+  background-color: #F7CD82; }
+  .show-online:hover {
+    background-color: #f5c36a; }
+
+.show-offline {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #F79E6B; }
+  .show-offline:hover {
+    background-color: #f68e53; }
+
+.icon-container {
+  width: 60px; }
+  .icon-container img {
+    border-radius: 50%;
+    width: 100%; }
+
+.offline {
+  background-color: #d05b5b; }
+
+.online-status-container a {
+  border: white 1px solid;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em; }
+  .online-status-container a:hover {
+    color: #a90000;
+    border-color: #a90000; }
+
+.online-status-container div {
+  width: 180px;
+  text-align: right; }
